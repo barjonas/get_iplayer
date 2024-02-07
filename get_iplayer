@@ -9056,7 +9056,7 @@ sub opt {
 sub run {
 	my $pvr = shift;
 	my $pvr_name_regex = shift || '.*';
-	my $exclude_regex = '_ROUGE_VALUE_';
+	my $exclude_regex = '_ROGUE_VALUE_';
 
 	# Don't attempt to record programmes with pids in history
 	my $hist = History->new();
